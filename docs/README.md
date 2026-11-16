@@ -1,3 +1,5 @@
+[Código extraído e histórico preservado](EXTRACAO_CODIGO.md) · [Execução atual](DEPLOY.md)
+
 # Documentação do FISC
 
 - [Identidade e escopo](IDENTIDADE_ESCOPO_FISC.md)
@@ -9,7 +11,7 @@
 - [Índice de releases](RELEASES.md)
 - [Validação fora do monorepo](VALIDACAO_FORA_MONOREPO.md)
 - [Modelo de notas de release](MODELO_NOTAS_RELEASE.md)
-- [Execução e configuração](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DEPLOY.md)
+- [Execução e configuração](DEPLOY.md)
 - [Arquitetura técnica](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ARCHITECTURE.md)
 - [Decisões fiscais](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DECISOES.md)
 - [Pendências e limites](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/PENDENCIAS.md)

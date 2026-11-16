@@ -51,8 +51,10 @@ FISC e IIC são produtos distintos que reutilizam uma base comum. O FISC usa o
 SDK público do core; não depende do pacote de produto IIC. A disponibilidade de conectores e canais no core não comprova sua validação
 para cenários fiscais do FISC.
 
-A implementação permanece no monorepo em `packages/dfe`. O repositório próprio de apresentação não implica publicação de pacotes ou
-governança de releases totalmente separados.
+A implementação oficial está neste repositório, com core e core-ui consumidos
+por releases do IIC. Consulte [a extração](EXTRACAO_CODIGO.md) para origem,
+histórico e transição. Repositórios próprios não significam implantação,
+homologação ou bancos compartilhados.
 
 ## 4. Escopo atual
 

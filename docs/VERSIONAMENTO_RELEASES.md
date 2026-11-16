@@ -1,3 +1,9 @@
+> Atualização de 2026-11-16 após a extração: código e próximas tags
+> fisc/vX.Y.Z do FISC pertencem a este repositório. Core e core-ui permanecem
+> no IIC, com releases core/v1.4.0 e core-ui/v0.1.0 já publicadas como assets.
+> Os trechos abaixo sobre a fase documental/monorepo registram o plano anterior;
+> a regra vigente de localização é esta e docs/EXTRACAO_CODIGO.md.
+
 # Política de versionamento e releases
 
 Definida em 2026-11-16 para a organização atual: código no monorepo IIC e

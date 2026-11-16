@@ -16,3 +16,7 @@ Enquanto o código permanecer no monorepo, a release técnica e sua tag
 
 Consulte a [política de versionamento e releases](VERSIONAMENTO_RELEASES.md)
 e o [modelo de notas](MODELO_NOTAS_RELEASE.md).
+
+Após a extração, as próximas releases FISC são criadas neste repositório.
+As bibliotecas já têm releases permanentes: [core](https://github.com/marcos-slima/integration-incident-copilot/releases/tag/core/v1.4.0) e [core-ui](https://github.com/marcos-slima/integration-incident-copilot/releases/tag/core-ui/v0.1.0).
+A extração não cria automaticamente uma release de produto.

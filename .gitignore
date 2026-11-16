@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+.pytest_cache/
+.ruff_cache/
+.env
+.runtime/
+p8_*
+*.tgz
+*.whl
+data/corpus/MOC_7.0_Anexo_I.pdf

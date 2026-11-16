@@ -1,0 +1,3 @@
+data/schemas/** -text
+data/corpus/*.pdf -text
+tests/fixtures/*.xml -text
