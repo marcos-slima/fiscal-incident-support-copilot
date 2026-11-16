@@ -1,1 +1,8 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Contribuir com o FISC
+    url: https://github.com/marcos-slima/fiscal-incident-support-copilot/blob/main/CONTRIBUTING.md
+    about: Saiba onde abrir issues e PRs de produto, documentação ou código.
+  - name: Problema compartilhado de IIC ou core
+    url: https://github.com/marcos-slima/integration-incident-copilot/issues
+    about: Use para problemas do core, SDK ou core-ui que afetem os produtos.

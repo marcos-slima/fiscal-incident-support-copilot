@@ -154,6 +154,9 @@ retransmissão, cancelamento, inutilização e execução de contingência.
 
 ## Documentação e próximos passos
 
+Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o
+[guia de contribuição](CONTRIBUTING.md) para saber onde propor cada alteração.
+
 | Preciso de… | Consulte |
 |---|---|
 | Posicionamento e fronteiras do produto | [Identidade e escopo](docs/IDENTIDADE_ESCOPO_FISC.md) |

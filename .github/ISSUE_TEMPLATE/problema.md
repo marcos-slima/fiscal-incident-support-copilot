@@ -18,3 +18,7 @@ Use dados sintéticos ou anonimizados. Não publique XML fiscal real, credenciai
 certificados ou dados pessoais. Inclua mensagens de erro sem segredos.
 
 ## Resultado observado
+
+## Implementação relacionada
+
+Se houver issue ou PR no monorepo, inclua a URL completa.
