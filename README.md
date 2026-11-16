@@ -152,6 +152,13 @@ Estão fora do escopo atual: suporte completo a NFC-e, NFS-e, CT-e e MDF-e;
 cálculo tributário completo; consulta direta à SEFAZ; emissão, autorização,
 retransmissão, cancelamento, inutilização e execução de contingência.
 
+## Versionamento e entregas
+
+FISC, IIC, core Python e core-ui seguem versões independentes. Consulte a
+[política de releases](docs/VERSIONAMENTO_RELEASES.md) e o
+[índice de entregas do FISC](docs/RELEASES.md). A versão declarada no manifest
+não comprova disponibilidade de pacote ou imagem publicados.
+
 ## Documentação e próximos passos
 
 Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o

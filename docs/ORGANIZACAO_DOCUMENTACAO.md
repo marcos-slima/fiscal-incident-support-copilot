@@ -20,6 +20,10 @@ Estado: organização inicial de 2026-11-16, durante a permanência do código n
 As responsabilidades são funções de manutenção, não novos cargos ou
 aprovações atribuídos a pessoas. Permissões de acesso não foram alteradas.
 
+A [política de versionamento](VERSIONAMENTO_RELEASES.md) define unidades,
+compatibilidade e entrega; o [índice de releases](RELEASES.md) acompanha
+as publicações efetivas. Os changelogs técnicos ficam junto ao código.
+
 ## Evitar duplicação
 
 Este repositório é a referência editorial dos documentos de produto acima.
