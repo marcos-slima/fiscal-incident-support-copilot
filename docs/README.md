@@ -7,6 +7,7 @@
 - [Como contribuir](../CONTRIBUTING.md)
 - [Versionamento e releases](VERSIONAMENTO_RELEASES.md)
 - [Índice de releases](RELEASES.md)
+- [Validação fora do monorepo](VALIDACAO_FORA_MONOREPO.md)
 - [Modelo de notas de release](MODELO_NOTAS_RELEASE.md)
 - [Execução e configuração](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DEPLOY.md)
 - [Arquitetura técnica](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ARCHITECTURE.md)

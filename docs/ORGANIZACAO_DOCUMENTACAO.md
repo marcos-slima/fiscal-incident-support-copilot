@@ -24,6 +24,9 @@ A [política de versionamento](VERSIONAMENTO_RELEASES.md) define unidades,
 compatibilidade e entrega; o [índice de releases](RELEASES.md) acompanha
 as publicações efetivas. Os changelogs técnicos ficam junto ao código.
 
+A [validação fora do monorepo](VALIDACAO_FORA_MONOREPO.md) registra o perfil
+externo, adaptações e evidência local, sem substituir os contratos técnicos.
+
 ## Evitar duplicação
 
 Este repositório é a referência editorial dos documentos de produto acima.

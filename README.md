@@ -159,6 +159,14 @@ FISC, IIC, core Python e core-ui seguem versões independentes. Consulte a
 [índice de entregas do FISC](docs/RELEASES.md). A versão declarada no manifest
 não comprova disponibilidade de pacote ou imagem publicados.
 
+## Validação fora do monorepo
+
+Em 2026-11-16, um perfil externo passou em 214 testes fiscais em Python 3.12
+e em 214 testes em Python 3.14, além de build da UI, wheel e smoke da imagem.
+Foram usados artefatos compartilhados aprovados no CI, sem fontes ou ambiente
+do core/IIC. Veja o [relatório e seus limites](docs/VALIDACAO_FORA_MONOREPO.md).
+Isso não constitui publicação em registro ou homologação fiscal.
+
 ## Documentação e próximos passos
 
 Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o
