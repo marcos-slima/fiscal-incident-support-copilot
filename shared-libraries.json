@@ -1,0 +1,17 @@
+{
+  "core": {
+    "version": "1.4.0",
+    "url": "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core%2Fv1.4.0/copilot_core-1.4.0-py3-none-any.whl",
+    "sha256": "be30ee90367a650b8553dec6f10d38fee85729eb1c6c49c8befad980f6dd59c2"
+  },
+  "core_ui": {
+    "version": "0.1.0",
+    "url": "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core-ui%2Fv0.1.0/copilot-core-ui-0.1.0.tgz",
+    "sha256": "888ab0d68b25b2c16a4c0e266a7c1189cfdbd4d992b312f95dfcc4e0906c9405"
+  },
+  "operations": {
+    "version": "1.4.0",
+    "url": "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core%2Fv1.4.0/copilot-core-operations-1.4.0.tar.gz",
+    "sha256": "dc4daa8135eb69dad783bd62969f5fbc4fab5767c9a8202a040241cb9d8b0211"
+  }
+}

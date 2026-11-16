@@ -14,8 +14,8 @@ para organizar a investigação e orientar o próximo passo.
 
 [Identidade e escopo](docs/IDENTIDADE_ESCOPO_FISC.md) ·
 [Documentação técnica](docs/README.md) ·
-[Código-fonte](https://github.com/marcos-slima/integration-incident-copilot/tree/feat/dfe-runtime-existing-kb/packages/dfe) ·
-[Execução e configuração](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DEPLOY.md)
+[Código-fonte](src/dfe_copilot) ·
+[Execução e configuração](docs/DEPLOY.md)
 
 ## Por que o FISC existe
 
@@ -61,7 +61,7 @@ O FISC não consulta a SEFAZ nem reenvia a NF-e automaticamente. Uma hipótese
 produzida pelo LLM não confirma a causa.
 
 Para o contrato de entrada e um exemplo de requisição, consulte o
-[README técnico do produto](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/README.md). Os cenários de demonstração são sintéticos.
+[README técnico do produto](pyproject.toml). Os cenários de demonstração são sintéticos.
 
 ## Arquitetura resumida
 
@@ -86,46 +86,42 @@ integrações empresariais. Ambos reutilizam `copilot-core` e
 
 O compartilhamento preserva serviços de gateway LLM, RAG, evidências,
 autenticação e infraestrutura. As regras e fontes fiscais permanecem no FISC.
-Consulte os [contratos públicos do core](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/core/docs/CONTRACTS.md).
+Consulte os [contratos públicos do core](https://github.com/marcos-slima/integration-incident-copilot/blob/core%2Fv1.4.0/packages/core/docs/CONTRACTS.md).
 
-## Onde está a implementação
+## Código e execução independentes
 
-Este repositório apresenta o FISC e seu escopo. **A implementação é mantida
-atualmente no [monorepo Integration Incident Copilot](https://github.com/marcos-slima/integration-incident-copilot), em
-[`packages/dfe`](https://github.com/marcos-slima/integration-incident-copilot/tree/feat/dfe-runtime-existing-kb/packages/dfe).** A configuração e o build ainda usam esse workspace.
+**Este repositório é a fonte oficial do código do FISC.** Backend, frontend,
+testes, Docker e CI estão aqui. O core Python e a biblioteca UI continuam
+compartilhados com o IIC e são consumidos por releases versionadas, sem copiar
+suas fontes.
 
-Os links técnicos desta edição apontam para a branch
-`feat/dfe-runtime-existing-kb`, usada como referência de implementação.
-
-| Elemento | Identificador preservado |
+| Componente | Local |
 |---|---|
-| Distribuição Python | `dfe-copilot` |
-| Módulo Python | `dfe_copilot` |
-| Plugin de domínio | `dfe` |
-| Shell de interface | `@copilot/dfe-ui` |
-| Imagem e variáveis | `dfe-copilot` e prefixos `DFE_`/`dfe_` |
+| Backend fiscal | [src/dfe_copilot](src/dfe_copilot) |
+| Interface | [frontend](frontend) |
+| Testes fiscais | [tests](tests) |
+| Execução e ambientes | [Guia de execução](docs/DEPLOY.md) |
+| Bibliotecas e hashes | [shared-libraries.json](shared-libraries.json) |
+| Histórico e corte de migração | [Registro de extração](docs/EXTRACAO_CODIGO.md) |
 
-FISC é a marca do produto. Esses nomes técnicos permanecem para preservar
-compatibilidade de imports, builds e configurações.
+Os identificadores permanecem: distribuição Python dfe-copilot, módulo
+dfe_copilot, plugin dfe e shell @copilot/dfe-ui.
 
 ## Como experimentar
 
-Use o checkout do **monorepo**, com Python 3.12+, uv e os serviços/modelos
-configurados. A interface exige build e credenciais de acesso; a configuração
-completa está no [guia de execução](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DEPLOY.md).
+Clone este repositório. Para Docker, copie .env.example para .env, configure
+credenciais e modelos conforme o [guia de execução](docs/DEPLOY.md) e execute:
 
-Para desenvolvimento, a partir da raiz do monorepo já configurado:
+~~~bash
+docker compose --env-file .env up -d --build
+~~~
 
-```bash
-uv sync --locked --all-packages
-npm ci
-npm run build -w @copilot/dfe-ui
-uv run --package dfe-copilot python -m uvicorn dfe_copilot.main:app --reload --port 8001
-```
+A UI fica por padrão em http://127.0.0.1:8002. O Compose cria Qdrant próprio;
+Ollama e modelos são provisionados no host. O build usa somente este checkout
+e releases públicas das bibliotecas compartilhadas. Não usa checkout do IIC.
 
-A entrada continua sendo `dfe_copilot.main:app`. O guia também descreve
-Docker Compose, primeiro acesso, Ollama, base fiscal e ingestão. Os comandos
-acima não configuram credenciais nem provisionam modelos e infraestrutura.
+Para desenvolvimento e testes, siga o guia: ele instala core e produto como
+wheels e compila a UI antes de executar a aplicação.
 
 ## Maturidade e limites
 
@@ -134,7 +130,7 @@ acima não configuram credenciais nem provisionam modelos e infraestrutura.
 | Domínio fiscal | NF-e 55, leiaute 4.00; regras especializadas de duplicidade, divergência de chave e timeout |
 | UI, empacotamento e imagem | Implementados, com verificações locais históricas registradas |
 | Testes e avaliação | Casos sintéticos; aceites locais não substituem validação fiscal externa |
-| CI | Workflow específico no monorepo; esta apresentação não atesta resultado remoto atual |
+| CI | Workflow próprio neste repositório; resultados por commit na aba Actions |
 | Base fiscal e revisão persistente | Dependem dos serviços e da configuração do ambiente |
 | Revisão especializada | Pendente conforme o registro de pendências |
 | SAP/SEFAZ reais e homologação | Não comprovados pelos aceites citados |
@@ -176,19 +172,17 @@ Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o
 |---|---|
 | Posicionamento e fronteiras do produto | [Identidade e escopo](docs/IDENTIDADE_ESCOPO_FISC.md) |
 | Orientação de uso e revisão | [Manual do usuário](docs/MANUAL_USUARIO_FISC.md) |
-| Instalação, credenciais e serviços | [Guia de execução](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DEPLOY.md) |
+| Instalação, credenciais e serviços | [Guia de execução](docs/DEPLOY.md) |
 | Arquitetura, processos e governança | [Índice documental](docs/README.md) |
-| Contrato de entrada e requisição de exemplo | [README técnico](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/README.md) |
-| Restrições e validações pendentes | [Pendências](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/PENDENCIAS.md) |
+| Contrato de entrada e requisição de exemplo | [README técnico](pyproject.toml) |
+| Restrições e validações pendentes | [Pendências](docs/PENDENCIAS.md) |
 | Evidência histórica de testes locais | [Aceite P2](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P2.md) e [aceite P6](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P6.md) |
 | Licença da implementação | [Licença MIT](LICENSE) |
 
-A evolução prevê consolidar a apresentação própria, organizar releases por
-produto e distribuir as bibliotecas compartilhadas. A extração do código para
-outro repositório depende dessa preparação e de uma decisão posterior.
+O código foi extraído preservando o histórico fiscal. As bibliotecas têm
+releases próprias no IIC; novas releases do produto FISC usam este repositório.
 
 Use as [issues deste repositório](https://github.com/marcos-slima/fiscal-incident-support-copilot/issues)
-para dúvidas e problemas do FISC. Alterações de código continuam no
-[monorepo](https://github.com/marcos-slima/integration-incident-copilot).
+para dúvidas e problemas do FISC. Alterações de código do FISC são propostas neste repositório.
 Ao relatar problemas, use dados sintéticos ou anonimizados e preserve o
 contexto necessário para reproduzir o caso.

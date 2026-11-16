@@ -2,7 +2,7 @@
 
 ## Issue relacionada
 
-Use URL completa, inclusive para issues ou PRs no monorepo.
+Use URL completa, inclusive para mudanças compartilhadas de core no IIC.
 
 ## Verificações realizadas
 
