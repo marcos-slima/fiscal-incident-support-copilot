@@ -4,7 +4,7 @@ Código fiscal, UI, testes, scripts, documentação de produto, Docker e CI:
 este repositório FISC. Issues e PRs de produto são abertos aqui.
 
 Core Python, contratos SDK/HTTP/plugin, core-ui, seus testes e releases:
-[repositório IIC](https://github.com/marcos-slima/integration-incident-copilot).
+[Copilot Platform](https://github.com/marcos-slima/copilot-platform).
 Atualizações são adotadas por versão, hash e lock; não por cópia de código.
 
 - [Identidade e escopo](IDENTIDADE_ESCOPO_FISC.md)
@@ -22,4 +22,6 @@ execução, segredos e relatórios de clientes permanecem fora do Git.
 ## Evolução da base compartilhada
 
 [Avaliação de plataforma neutra — 2026-11-17](AVALIACAO_PLATAFORMA_NEUTRA.md):
-recomendação, fronteiras, critérios de corte e plano condicionado.
+avaliação histórica, anterior à decisão de executar a extração.
+
+[Adoção da plataforma neutra](ADOCAO_PLATAFORMA.md): estado atual e versões consumidas.

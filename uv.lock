@@ -562,8 +562,8 @@ wheels = [
 
 [[package]]
 name = "copilot-core"
-version = "1.4.0"
-source = { url = "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core%2Fv1.4.0/copilot_core-1.4.0-py3-none-any.whl" }
+version = "1.4.1"
+source = { url = "https://github.com/marcos-slima/copilot-platform/releases/download/core%2Fv1.4.1/copilot_core-1.4.1-py3-none-any.whl" }
 dependencies = [
     { name = "aiofiles" },
     { name = "alembic" },
@@ -610,7 +610,7 @@ dependencies = [
     { name = "uvicorn", extra = ["standard"] },
 ]
 wheels = [
-    { url = "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core%2Fv1.4.0/copilot_core-1.4.0-py3-none-any.whl", hash = "sha256:be30ee90367a650b8553dec6f10d38fee85729eb1c6c49c8befad980f6dd59c2" },
+    { url = "https://github.com/marcos-slima/copilot-platform/releases/download/core%2Fv1.4.1/copilot_core-1.4.1-py3-none-any.whl", hash = "sha256:733629b8c470874ff8db5ceed3de73b62ff0b93fbbba72d21c722748cb5f9c61" },
 ]
 
 [package.metadata]
@@ -905,7 +905,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "copilot-core", url = "https://github.com/marcos-slima/integration-incident-copilot/releases/download/core%2Fv1.4.0/copilot_core-1.4.0-py3-none-any.whl" },
+    { name = "copilot-core", url = "https://github.com/marcos-slima/copilot-platform/releases/download/core%2Fv1.4.1/copilot_core-1.4.1-py3-none-any.whl" },
     { name = "lxml", specifier = ">=6.1" },
     { name = "pydantic", specifier = ">=2.13" },
     { name = "torch", marker = "sys_platform != 'linux'", specifier = ">=2.14.1" },

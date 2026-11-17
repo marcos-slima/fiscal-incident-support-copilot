@@ -86,7 +86,7 @@ integrações empresariais. Ambos reutilizam `copilot-core` e
 
 O compartilhamento preserva serviços de gateway LLM, RAG, evidências,
 autenticação e infraestrutura. As regras e fontes fiscais permanecem no FISC.
-Consulte os [contratos públicos do core](https://github.com/marcos-slima/integration-incident-copilot/blob/core%2Fv1.4.0/packages/core/docs/CONTRACTS.md).
+Consulte os [contratos públicos do core](https://github.com/marcos-slima/copilot-platform/blob/core%2Fv1.4.1/packages/core/docs/CONTRACTS.md).
 
 ## Código e execução independentes
 
@@ -186,3 +186,6 @@ Use as [issues deste repositório](https://github.com/marcos-slima/fiscal-incide
 para dúvidas e problemas do FISC. Alterações de código do FISC são propostas neste repositório.
 Ao relatar problemas, use dados sintéticos ou anonimizados e preserve o
 contexto necessário para reproduzir o caso.
+
+A base compartilhada agora pertence a [Copilot Platform](https://github.com/marcos-slima/copilot-platform).
+Veja [a adoção e suas versões independentes](docs/ADOCAO_PLATAFORMA.md).

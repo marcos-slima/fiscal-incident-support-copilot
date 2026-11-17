@@ -15,3 +15,5 @@ Código em src/dfe_copilot, frontend em frontend, testes em tests.
   wheel instalado: python -I -m pytest -c pyproject.toml -o pythonpath= tests.
 - Não declarar homologação, SAP/SEFAZ real ou inferência real sem evidência.
 - Arquivos de revisão e datasets sintéticos são versionados; .env/caches não.
+
+- Fonte canônica de core/UI/operações: marcos-slima/copilot-platform; cada componente tem versão própria.
