@@ -19,3 +19,8 @@
 O código e os documentos técnicos de execução permanecem no monorepo.
 Esta documentação descreve um MVP de NF-e 55, leiaute 4.00, sem homologação
 fiscal ou validação operacional em SAP/SEFAZ reais.
+
+## Evolução da base compartilhada
+
+[Avaliação de plataforma neutra — 2026-11-17](AVALIACAO_PLATAFORMA_NEUTRA.md):
+recomendação, fronteiras, critérios de corte e plano condicionado.

@@ -18,3 +18,8 @@ Atualizações são adotadas por versão, hash e lock; não por cópia de códig
 Aceites e decisões anteriores são evidência histórica. Menções antigas a
 packages/dfe não tornam o monorepo a fonte atual do produto. Dados de
 execução, segredos e relatórios de clientes permanecem fora do Git.
+
+## Evolução da base compartilhada
+
+[Avaliação de plataforma neutra — 2026-11-17](AVALIACAO_PLATAFORMA_NEUTRA.md):
+recomendação, fronteiras, critérios de corte e plano condicionado.
