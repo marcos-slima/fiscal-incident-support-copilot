@@ -4,7 +4,7 @@ Data: 2026-11-16. Estado: base de posicionamento para revisão do responsável p
 
 Este documento consolida a identidade e o recorte existentes. Não amplia o
 contrato fiscal nem representa homologação, aprovação de especialista ou
-validação em produção. Orienta a futura apresentação própria no GitHub.
+validação em produção. Orienta a apresentação própria já publicada no GitHub e a delimitação do produto.
 
 ## 1. Identidade
 
@@ -18,7 +18,7 @@ validação em produção. Orienta a futura apresentação própria no GitHub.
 | Público complementar | Especialistas fiscais, equipes de integração, operação, arquitetura e segurança |
 | Estágio | MVP em construção, com avaliação baseada em casos sintéticos e limitações de validação externa |
 
-O nome e a regra de uso seguem a [decisão de identidade](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DECISAO_NOME.md).
+O nome e a regra de uso seguem a [decisão de identidade](../docs/DECISAO_NOME.md).
 FISC é a marca de comunicação. `dfe-copilot`, `dfe_copilot`, plugin `dfe`,
 `@copilot/dfe-ui` e os prefixos técnicos existentes permanecem preservados.
 
@@ -115,10 +115,10 @@ contratos, fontes, testes e evidência de validação antes de serem anunciados.
 ## 7. Maturidade e limites de comunicação
 
 Há implementação e artefatos locais de testes, UI, empacotamento e imagem.
-Os aceites [P2](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P2.md) e [P6](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P6.md) registram verificações
+Os aceites [P2](../docs/ACEITE_P2.md) e [P6](../docs/ACEITE_P6.md) registram verificações
 locais históricas, incluindo testes com entradas sintéticas. Esses registros
 não são uma nova execução nem confirmação do estado remoto do CI.
-O [registro de pendências](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/PENDENCIAS.md) distingue itens resolvidos de revisão
+O [registro de pendências](../docs/PENDENCIAS.md) distingue itens resolvidos de revisão
 especializada e verificações ainda necessárias. Execução local, resultado de
 benchmark e configuração aceita não constituem homologação fiscal ou prova
 de operação contra SAP/SEFAZ reais.
@@ -141,15 +141,15 @@ completa, integração homologada ou prontidão para produção sem evidência.
 
 ## 9. Fontes e manutenção
 
-- [Decisão do nome](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DECISAO_NOME.md): marca e identificadores preservados.
+- [Decisão do nome](../docs/DECISAO_NOME.md): marca e identificadores preservados.
 - [Apresentação do produto](../README.md): problema, públicos e visão de produto.
-- [Contrato fiscal](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/src/dfe_copilot/context.py): recorte aceito pelo runtime.
-- [Plugin](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/src/dfe_copilot/plugin.py): ferramentas, correlação e base fiscal.
-- [Decisões fiscais](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/DECISOES.md): regras, limites e histórico de avaliação.
-- [Pendências](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/PENDENCIAS.md): restrições e validações externas em aberto.
-- [Contratos do core](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/core/docs/CONTRACTS.md): fronteiras e compatibilidade.
-- [Fronteiras de imports](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/architecture/boundaries.toml): dependências permitidas.
+- [Contrato fiscal](../src/dfe_copilot/context.py): recorte aceito pelo runtime.
+- [Plugin](../src/dfe_copilot/plugin.py): ferramentas, correlação e base fiscal.
+- [Decisões fiscais](../docs/DECISOES.md): regras, limites e histórico de avaliação.
+- [Pendências](../docs/PENDENCIAS.md): restrições e validações externas em aberto.
+- [Contratos do core](https://github.com/marcos-slima/copilot-platform/blob/main/packages/core/docs/CONTRACTS.md): fronteiras e compatibilidade.
+- [Fronteiras de imports](https://github.com/marcos-slima/copilot-platform/blob/main/architecture/boundaries.toml): dependências permitidas.
 
-Este documento é a referência de posicionamento e escopo para o próximo
-README. Detalhes operacionais permanecem nos manuais e contratos técnicos.
+Este documento é a referência de posicionamento e escopo para o
+README do produto. Detalhes operacionais permanecem nos manuais e contratos técnicos.
 Mudanças de capacidade devem atualizar as fontes técnicas e esta síntese.

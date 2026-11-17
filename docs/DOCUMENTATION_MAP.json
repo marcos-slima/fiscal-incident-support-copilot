@@ -1,0 +1,258 @@
+{
+  "architecture": "independent-products-shared-platform",
+  "date": "2026-11-17",
+  "source_commit": "b34e8a6a89dabe8bd98e5b3bf919bc3baf2e4d9d",
+  "statuses": {
+    "current": "maintained operational/product guide",
+    "reference": "design/decision reference; dated sections retain original scope",
+    "historical": "frozen evidence; not current setup",
+    "redirect": "compatibility URL to current owner or guide"
+  },
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "README.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ACEITE_P2.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ACEITE_P6.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ADOCAO_PLATAFORMA.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ARQUITETURA_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ARQUITETURA_SOFTWARE_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/AVALIACAO_PLATAFORMA_NEUTRA.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/DECISAO_NOME.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/DECISOES.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/DEPLOY.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/DOCUMENTATION_POLICY.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/DOSSIER_PRODUTO_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ESTUDO_ORIGEM.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/EXTRACAO_CODIGO.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/GOVERNANCA_IA_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/IDENTIDADE_ESCOPO_FISC.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/MANUAL_USUARIO_FISC.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/MODELO_NOTAS_RELEASE.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/ORGANIZACAO_DOCUMENTACAO.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/PENDENCIAS.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/PROCESSOS_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/README.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/RELEASES.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/REVISAO_DATASET.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/SEGURANCA_CONFORMIDADE_FISC.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/VALIDACAO_FORA_MONOREPO.md",
+      "status": "redirect",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/VERSIONAMENTO_RELEASES.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/diagramas/README.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/ACEITE_P2.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/ACEITE_P6.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/AVALIACAO_PLATAFORMA_NEUTRA.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/ESTUDO_ORIGEM.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/EXTRACAO_CODIGO.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/README.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/REVISAO_DATASET.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/VALIDACAO_FORA_MONOREPO.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/before-reorganization/docs/ARCHITECTURE.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/before-reorganization/docs/PENDENCIAS.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/before-reorganization/docs/RELEASES.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/before-reorganization/docs/VERSIONAMENTO_RELEASES.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/history/before-reorganization/frontend/README.md",
+      "status": "historical",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/matriz/MATRIZ_CARTOES_TURBO_EA.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/matriz/MATRIZ_INTERFACES.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/matriz/MATRIZ_REQUISITOS_EVIDENCIAS.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "docs/matriz/MATRIZ_RISCOS.md",
+      "status": "reference",
+      "owner": "fiscal-incident-support-copilot"
+    },
+    {
+      "path": "frontend/README.md",
+      "status": "current",
+      "owner": "fiscal-incident-support-copilot"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" id="FISC_Request_Channels" targetNamespace="urn:fisc:bpmn">
+  <collaboration id="Collab_Request"><participant id="Pool_Client" name="Cliente/Monitor" processRef="Process_Request"/><participant id="Pool_FISC" name="FISC" processRef="Process_Request"/></collaboration>
+  <process id="Process_Request" name="Solicitar diagnóstico por canais" isExecutable="false">
+    <startEvent id="Start_Request" name="Incidente disponível"/>
+    <task id="Task_Channel" name="Escolher UI, REST, MCP, A2A, CloudEvents ou AMQP"/>
+    <exclusiveGateway id="Gateway_Channel" name="Canal válido?"/>
+    <task id="Task_Auth" name="Autenticar no contrato do canal"/>
+    <task id="Task_Sync" name="POST /diagnose síncrono"/>
+    <task id="Task_Async" name="POST /diagnose/async e consultar job"/>
+    <task id="Task_MCP" name="tools/call diagnose_incident"/>
+    <task id="Task_A2A" name="message/send e tasks/get"/>
+    <task id="Task_Event" name="Receber CloudEvent ou AMQP"/>
+    <endEvent id="End_Accepted" name="Solicitação aceita"/>
+    <endEvent id="End_Rejected" name="Contrato/autenticação rejeitados"/>
+    <sequenceFlow id="f1" sourceRef="Start_Request" targetRef="Task_Channel"/><sequenceFlow id="f2" sourceRef="Task_Channel" targetRef="Gateway_Channel"/>
+    <sequenceFlow id="f3" sourceRef="Gateway_Channel" targetRef="End_Rejected" name="não"/><sequenceFlow id="f4" sourceRef="Gateway_Channel" targetRef="Task_Auth" name="sim"/>
+    <sequenceFlow id="f5" sourceRef="Task_Auth" targetRef="Task_Sync" name="REST sync"/><sequenceFlow id="f6" sourceRef="Task_Auth" targetRef="Task_Async" name="REST async"/><sequenceFlow id="f7" sourceRef="Task_Auth" targetRef="Task_MCP" name="MCP"/><sequenceFlow id="f8" sourceRef="Task_Auth" targetRef="Task_A2A" name="A2A"/><sequenceFlow id="f9" sourceRef="Task_Auth" targetRef="Task_Event" name="evento"/>
+    <sequenceFlow id="f10" sourceRef="Task_Sync" targetRef="End_Accepted"/><sequenceFlow id="f11" sourceRef="Task_Async" targetRef="End_Accepted"/><sequenceFlow id="f12" sourceRef="Task_MCP" targetRef="End_Accepted"/><sequenceFlow id="f13" sourceRef="Task_A2A" targetRef="End_Accepted"/><sequenceFlow id="f14" sourceRef="Task_Event" targetRef="End_Accepted"/>
+  </process>
+</definitions>

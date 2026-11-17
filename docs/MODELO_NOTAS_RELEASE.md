@@ -20,6 +20,7 @@ Descrever o gatilho, o comportamento anterior e o novo resultado.
 |---|---|---|
 | Core Python | A preencher | A preencher |
 | Core UI | A preencher | A preencher |
+| Operações / combinação de core / revisão de schema | A preencher | A preencher |
 | SDK / HTTP / plugin / contexto fiscal | A preencher | A preencher |
 | Prompt / schemas / corpus | A preencher | A preencher |
 | Modelo, origem e configuração usados na avaliação | A preencher | A preencher |
