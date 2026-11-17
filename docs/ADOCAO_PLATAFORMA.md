@@ -7,7 +7,7 @@ repositório neutro, copilot-platform, com versões independentes.
 |---|---|---|
 | copilot-core | 1.4.1 | wheel GitHub Release core/v1.4.1 |
 | @copilot/core-ui | 0.1.1 | tarball GitHub Release core-ui/v0.1.1 |
-| copilot-operations | 1.0.0 | bundle GitHub Release operations/v1.0.0 |
+| copilot-operations | 1.0.1 | bundle GitHub Release operations/v1.0.1 |
 
 URLs e SHA-256 estão em shared-libraries.json; locks Python/npm são atualizados
 explicitamente. As releases antigas do IIC continuam disponíveis para reproduzir
