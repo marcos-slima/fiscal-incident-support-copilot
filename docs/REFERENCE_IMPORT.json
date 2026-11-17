@@ -1,0 +1,113 @@
+{
+  "origin": "integration-incident-copilot local tracked HEAD; no uncommitted files imported",
+  "files": [
+    {
+      "source_path": "packages/dfe/docs/ARQUITETURA_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "0c2805b9cdffe6b786322472c162476061bcad8356ba21466b4bd349234e95a3",
+      "destination": "docs/ARQUITETURA_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/ARQUITETURA_SOFTWARE_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "97f7b9ed6848b02340e9107af06267d1cddfd8934a06448d18be1236aa99d848",
+      "destination": "docs/ARQUITETURA_SOFTWARE_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/PROCESSOS_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "c6bc1438441b4c737165ba13278196432965d4470d60bcb3b483b8108e8736b9",
+      "destination": "docs/PROCESSOS_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/GOVERNANCA_IA_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "8fe95f27a58ad05c55d3dbb7c4e398a6034291bf838d7724fd683adb40369fb3",
+      "destination": "docs/GOVERNANCA_IA_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/SEGURANCA_CONFORMIDADE_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "a063e29ccdbc10be77d5c29761f585ca8439448ed22c7ef7be2c7a4973d1e764",
+      "destination": "docs/SEGURANCA_CONFORMIDADE_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/DOSSIER_PRODUTO_FISC.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "204f302f24853e99ee654d4690aa18c7407a18d52b25f931e964fa1ab7ec8401",
+      "destination": "docs/DOSSIER_PRODUTO_FISC.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/matriz/MATRIZ_CARTOES_TURBO_EA.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "57ca938282e9e41a73cc5bcd7a3f3e067bcaf13241b6e53852bfd738f8c70289",
+      "destination": "docs/matriz/MATRIZ_CARTOES_TURBO_EA.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/matriz/MATRIZ_INTERFACES.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "1127cdf0bd3c95e6fb94cd3745f782fcdd0c0da5e07e8cdee287410e0150fa47",
+      "destination": "docs/matriz/MATRIZ_INTERFACES.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/matriz/MATRIZ_REQUISITOS_EVIDENCIAS.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "2cecd720f1632cff772791f6b9dcf59705cfa814aaf9a91f6faa31cbe688f084",
+      "destination": "docs/matriz/MATRIZ_REQUISITOS_EVIDENCIAS.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/matriz/MATRIZ_RISCOS.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "0d2b0e9a7c3fbcde2979ea35b4bff6402c870d756bc7b55941cac377d89becdf",
+      "destination": "docs/matriz/MATRIZ_RISCOS.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/README.md",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "44aa044f1737cb8dc65316ef50566936db2c9cb1370e8d07042267200020f97a",
+      "destination": "docs/diagramas/README.md"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/bpmn/fisc_diagnosis_and_review.bpmn",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "873449b8403f5bfb20ec01367bc7d78c743bf14eb1feeb61d42407feb807e3de",
+      "destination": "docs/diagramas/bpmn/fisc_diagnosis_and_review.bpmn"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/bpmn/fisc_governance_and_security.bpmn",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "78d5afeef343aed44a572beca36c186e6cfbc253e143a2a0f46fc9eefc0046f8",
+      "destination": "docs/diagramas/bpmn/fisc_governance_and_security.bpmn"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/bpmn/fisc_request_channels.bpmn",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "989232b089d4a53d39b8cbea3f3b67d6605a457aaa7889cf7498c37918fd5f1d",
+      "destination": "docs/diagramas/bpmn/fisc_request_channels.bpmn"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/drawio/fisc_context_and_c4.drawio",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "503663502084018024b28c4a7d585de4d9cc8c5784e6af8de6eb652fb6a2bb4d",
+      "destination": "docs/diagramas/drawio/fisc_context_and_c4.drawio"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/drawio/fisc_data_security.drawio",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "343cbaa7fcd88763a77658b7d234d455e07aec695f20613510e6b18cc0318af2",
+      "destination": "docs/diagramas/drawio/fisc_data_security.drawio"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/drawio/fisc_deployment_and_interfaces.drawio",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "24101f8eb67e95e10c5b1293674d9252fda6a2f4504423bad580b0489d555e11",
+      "destination": "docs/diagramas/drawio/fisc_deployment_and_interfaces.drawio"
+    },
+    {
+      "source_path": "packages/dfe/docs/diagramas/drawio/fisc_human_review_and_evolution.drawio",
+      "source_commit": "e57e42f8c654d25b28ae18cd4aa9a8a1672dc42b",
+      "source_sha256": "92250fd413cf4aedc491c15cc7ee6ba00de728ca3f05273577803e0ad07f7115",
+      "destination": "docs/diagramas/drawio/fisc_human_review_and_evolution.drawio"
+    }
+  ]
+}

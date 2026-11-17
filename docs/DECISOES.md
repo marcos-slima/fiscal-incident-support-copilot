@@ -1,7 +1,11 @@
+> Registro de decisões e evidências datadas. Referências a packages/dfe descrevem
+> o layout histórico; os caminhos atuais estão em [arquitetura](ARCHITECTURE.md).
+> Esta reorganização não reexecuta as medições aqui registradas.
+
 # DF-e Copilot — Decisões
 
 Decisões do domínio fiscal. As decisões do core continuam em
-`docs/DECISOES_DE_ARQUITETURA.md` da raiz (DA-93 fase 4 e DA-94).
+[no registro da plataforma](https://github.com/marcos-slima/copilot-platform/blob/main/docs/DECISOES_DE_ARQUITETURA.md) (DA-93 fase 4, DA-94 e DA-96).
 
 ## D0. Produto independente sobre o core (DA-94)
 

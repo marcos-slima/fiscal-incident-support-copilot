@@ -9,10 +9,10 @@ não executa ações operacionais sobre o documento.
 
 ## 2. Acesso inicial
 
-Abra a URL publicada pelo deployment, por exemplo `http://127.0.0.1:8003`.
+Abra a URL publicada pelo deployment, no Compose padrão `http://127.0.0.1:8002`.
 O login web usa usuário e senha e cria um cookie de sessão `HttpOnly`. O usuário
 deve ter sido configurado pelo administrador ou pelo bootstrap local documentado
-em `packages/dfe/docs/DEPLOY.md`.
+no [guia de execução](DEPLOY.md).
 
 Se o login falhar:
 

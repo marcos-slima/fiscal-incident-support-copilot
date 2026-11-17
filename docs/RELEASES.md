@@ -1,22 +1,17 @@
 # Índice de releases do FISC
 
-Consulta inicial: 2026-11-16. **Nenhuma GitHub Release de software FISC foi
-identificada nesta etapa.** O manifest declara `dfe-copilot 0.1.0`; isso não
-é comprovação de publicação de um pacote, imagem ou release.
+Verificação em 2026-11-17: nenhuma GitHub Release de software FISC publicada.
+O manifest declara dfe-copilot 0.1.0; código e imagem foram validados, mas isso
+não equivale à publicação de uma release de produto. A extração já foi concluída.
 
-A apresentação e documentação já publicadas neste repositório são rastreadas
-por commit e não constituem uma release executável do FISC.
+Próximas tags fisc/vX.Y.Z e releases pertencem a este repositório. Registrar
+versão, data, tag/commit, dependências exatas, URL da release e evidência de testes.
+Não há release futura reservada por este índice.
 
-## Registro das próximas entregas
+Dependências adotadas: [core 1.4.1](https://github.com/marcos-slima/copilot-platform/releases/tag/core/v1.4.1),
+[core-ui 0.1.1](https://github.com/marcos-slima/copilot-platform/releases/tag/core-ui/v0.1.1)
+e [operações 1.0.0](https://github.com/marcos-slima/copilot-platform/releases/tag/operations/v1.0.0).
+Hashes/URLs estão em shared-libraries.json; suas releases não são releases FISC.
 
-Quando houver uma entrega validada, adicionar uma linha com versão, data,
-URL da release técnica, tag/commit, core e core-ui exatos e evidência de testes.
-Enquanto o código permanecer no monorepo, a release técnica e sua tag
-`fisc/vX.Y.Z` serão criadas lá. Não há versão futura reservada por este índice.
-
-Consulte a [política de versionamento e releases](VERSIONAMENTO_RELEASES.md)
-e o [modelo de notas](MODELO_NOTAS_RELEASE.md).
-
-Após a extração, as próximas releases FISC são criadas neste repositório.
-As bibliotecas já têm releases permanentes: [core](https://github.com/marcos-slima/integration-incident-copilot/releases/tag/core/v1.4.0) e [core-ui](https://github.com/marcos-slima/integration-incident-copilot/releases/tag/core-ui/v0.1.0).
-A extração não cria automaticamente uma release de produto.
+[Política](VERSIONAMENTO_RELEASES.md) · [modelo](MODELO_NOTAS_RELEASE.md)
+· [adoção](ADOCAO_PLATAFORMA.md) · [histórico](history/README.md).

@@ -150,20 +150,22 @@ retransmissão, cancelamento, inutilização e execução de contingência.
 
 ## Versionamento e entregas
 
-FISC, IIC, core Python e core-ui seguem versões independentes. Consulte a
+FISC, IIC, core Python, core-ui e operações seguem versões independentes. Consulte a
 [política de releases](docs/VERSIONAMENTO_RELEASES.md) e o
 [índice de entregas do FISC](docs/RELEASES.md). A versão declarada no manifest
 não comprova disponibilidade de pacote ou imagem publicados.
 
-## Validação fora do monorepo
+## Evidências de validação
 
 Em 2026-11-16, um perfil externo passou em 214 testes fiscais em Python 3.12
 e em 214 testes em Python 3.14, além de build da UI, wheel e smoke da imagem.
 Foram usados artefatos compartilhados aprovados no CI, sem fontes ou ambiente
-do core/IIC. Veja o [relatório e seus limites](docs/VALIDACAO_FORA_MONOREPO.md).
+do core/IIC. Consulte [o registro histórico e seus limites](docs/history/VALIDACAO_FORA_MONOREPO.md).
+A adoção posterior de core 1.4.1/core-ui 0.1.1/operações 1.0.0 está no
+[guia de adoção](docs/ADOCAO_PLATAFORMA.md).
 Isso não constitui publicação em registro ou homologação fiscal.
 
-## Documentação e próximos passos
+## Documentação e manutenção
 
 Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o
 [guia de contribuição](CONTRIBUTING.md) para saber onde propor cada alteração.
@@ -176,11 +178,11 @@ Consulte o [mapa de fontes oficiais](docs/ORGANIZACAO_DOCUMENTACAO.md) e o
 | Arquitetura, processos e governança | [Índice documental](docs/README.md) |
 | Contrato de entrada e requisição de exemplo | [README técnico](pyproject.toml) |
 | Restrições e validações pendentes | [Pendências](docs/PENDENCIAS.md) |
-| Evidência histórica de testes locais | [Aceite P2](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P2.md) e [aceite P6](https://github.com/marcos-slima/integration-incident-copilot/blob/feat/dfe-runtime-existing-kb/packages/dfe/docs/ACEITE_P6.md) |
+| Evidência histórica de testes locais | [Aceite P2](docs/ACEITE_P2.md) e [aceite P6](docs/ACEITE_P6.md) |
 | Licença da implementação | [Licença MIT](LICENSE) |
 
 O código foi extraído preservando o histórico fiscal. As bibliotecas têm
-releases próprias no IIC; novas releases do produto FISC usam este repositório.
+releases próprias na Copilot Platform; novas releases do produto FISC usam este repositório.
 
 Use as [issues deste repositório](https://github.com/marcos-slima/fiscal-incident-support-copilot/issues)
 para dúvidas e problemas do FISC. Alterações de código do FISC são propostas neste repositório.
@@ -189,3 +191,5 @@ contexto necessário para reproduzir o caso.
 
 A base compartilhada agora pertence a [Copilot Platform](https://github.com/marcos-slima/copilot-platform).
 Veja [a adoção e suas versões independentes](docs/ADOCAO_PLATAFORMA.md).
+
+O [índice documental](docs/README.md) distingue guias atuais, decisões e histórico.
