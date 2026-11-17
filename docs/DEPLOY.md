@@ -1,7 +1,8 @@
 # FISC — execução independente
 
 O código está na raiz deste repositório. As bibliotecas são obtidas de releases
-públicas do IIC por versão e hash; checkout do IIC não é necessário.
+públicas de [Copilot Platform](https://github.com/marcos-slima/copilot-platform)
+por versão e hash; checkout do IIC ou da plataforma não é necessário.
 
 ## Ambiente de desenvolvimento
 

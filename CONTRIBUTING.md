@@ -5,7 +5,7 @@ Abra aqui issues e PRs sobre comportamento fiscal, frontend, testes, execução,
 CI, identidade ou documentação. Evite duplicar a mesma demanda.
 
 Problemas compartilhados de SDK, gateway, RAG ou core-ui vão para o
-[repositório do core/IIC](https://github.com/marcos-slima/integration-incident-copilot/issues).
+[Copilot Platform](https://github.com/marcos-slima/copilot-platform/issues).
 Vincule as ocorrências com URLs completas. Correções de core são adotadas
 aqui por atualização explícita das dependências, locks e hashes.
 

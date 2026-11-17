@@ -1,8 +1,8 @@
-> Atualização de 2026-11-16 após a extração: código e próximas tags
-> fisc/vX.Y.Z do FISC pertencem a este repositório. Core e core-ui permanecem
-> no IIC, com releases core/v1.4.0 e core-ui/v0.1.0 já publicadas como assets.
-> Os trechos abaixo sobre a fase documental/monorepo registram o plano anterior;
-> a regra vigente de localização é esta e docs/EXTRACAO_CODIGO.md.
+> Regra vigente em 2026-11-17: FISC e suas tags fisc/vX.Y.Z pertencem a este
+> repositório. Core Python, core-ui e operações pertencem a copilot-platform,
+> com tags core/vX.Y.Z, core-ui/vX.Y.Z e operations/vX.Y.Z independentes.
+> Versões adotadas: 1.4.1, 0.1.1 e 1.0.0, respectivamente.
+> [Adoção atual](ADOCAO_PLATAFORMA.md); o planejamento de monorepo abaixo é histórico.
 
 # Política de versionamento e releases
 
