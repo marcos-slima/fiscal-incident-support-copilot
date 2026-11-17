@@ -16,3 +16,7 @@ Mudança editorial não altera prompts, schema, versões de software ou releases
 Em caso de mudança de contrato, registrar a decisão e a migração no dono apropriado.
 
 [Índice](README.md) · [Mapa](DOCUMENTATION_MAP.json) · [Histórico](history/README.md).
+
+Arquivos gerados, como REVISAO_DATASET.md, permanecem nos caminhos exigidos
+pelos testes e são atualizados somente pelo gerador; não inserir avisos ou editar
+a folha manualmente. Seu estado de revisão continua sendo o do YAML de origem.

@@ -13,6 +13,7 @@ O IIC é outro consumidor; não é a localização atual do FISC ou da plataform
 | Identificar proprietário e caminhos | [Organização](ORGANIZACAO_DOCUMENTACAO.md) |
 | Atualizar dependências | [Adoção da plataforma](ADOCAO_PLATAFORMA.md) |
 | Preparar uma entrega | [Versionamento](VERSIONAMENTO_RELEASES.md), [índice](RELEASES.md), [modelo de notas](MODELO_NOTAS_RELEASE.md) |
+| Conferir a revisão gerada do dataset | [Folha gerada](REVISAO_DATASET.md), atualizada por scripts/review_sheet.py sem alterar decisões de revisão |
 | Consultar decisões fiscais | [Decisões](DECISOES.md) e [nome](DECISAO_NOME.md) |
 | Identificar validações ainda necessárias | [Pendências](PENDENCIAS.md) |
 | Consultar aceites, avaliação e extração anteriores | [Histórico](history/README.md) |
