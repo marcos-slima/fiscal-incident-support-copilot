@@ -86,7 +86,7 @@ integrações empresariais. Ambos reutilizam `copilot-core` e
 
 O compartilhamento preserva serviços de gateway LLM, RAG, evidências,
 autenticação e infraestrutura. As regras e fontes fiscais permanecem no FISC.
-Consulte os [contratos públicos do core](https://github.com/marcos-slima/copilot-platform/blob/core%2Fv1.4.1/packages/core/docs/CONTRACTS.md).
+Consulte os [contratos públicos do core](https://github.com/marcos-slima/copilot-platform/blob/core%2Fv1.5.0/packages/core/docs/CONTRACTS.md).
 
 ## Código e execução independentes
 

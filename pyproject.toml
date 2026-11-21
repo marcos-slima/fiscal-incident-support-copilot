@@ -7,10 +7,10 @@ license = "MIT"
 license-files = ["LICENSE"]
 readme = "README.md"
 # Shared core is consumed by immutable release URL, without workspace sources.
-dependencies = ["copilot-core==1.4.1", "lxml>=6.1", "pydantic>=2.13", "torch>=2.14.1"]
+dependencies = ["copilot-core==1.5.0", "lxml>=6.1", "pydantic>=2.13", "torch>=2.14.1"]
 
 [tool.uv.sources]
-copilot-core = { url = "https://github.com/marcos-slima/copilot-platform/releases/download/core%2Fv1.4.1/copilot_core-1.4.1-py3-none-any.whl" }
+copilot-core = { url = "https://github.com/marcos-slima/copilot-platform/releases/download/core%2Fv1.5.0/copilot_core-1.5.0-py3-none-any.whl" }
 torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
 
 [build-system]
