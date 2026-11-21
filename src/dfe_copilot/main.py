@@ -15,12 +15,12 @@ os.environ.setdefault("DFE_KB_ENABLED", "true")  # base fiscal dfe_kb (P3)
 # DA-95: o produto serve o proprio shell de UI (packages/dfe/frontend/dist).
 os.environ.setdefault("UI_DIST_DIR", str(UI_DIR))
 
-from app.sdk import SDK_CONTRACT_VERSION, asgi_app, compatible_version
+from app.sdk import SDK_CONTRACT_VERSION, asgi_app, compatible_version, legacy_agent_interfaces
 
 if not compatible_version("1.0", SDK_CONTRACT_VERSION):
     raise RuntimeError("Contrato SDK incompatível com o produto")
 
-app = asgi_app()
+app = asgi_app(interfaces=legacy_agent_interfaces(task_namespace="fisc"))
 app.title = "DF-e Copilot"
 
 __all__ = ["app"]
